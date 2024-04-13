@@ -1,0 +1,213 @@
+.job-route-page {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  min-height: 100vh;
+}
+.job-route-container {
+  border: 0px;
+  border-radius: 20px;
+  background-color: #202020;
+  list-style-type: none;
+  margin: 10px;
+  padding: 20px;
+}
+.job-route-description-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.job-route-description-heading {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.job-route-description {
+  font-size: 18px;
+}
+.job-route-package {
+  justify-self: flex-end;
+  margin-right: 10px;
+  margin: 0px;
+}
+.job-route-location-container {
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.job-route-sub-1 {
+  display: flex;
+}
+.job-route-location {
+  align-items: center;
+  margin: 0px;
+  display: flex;
+  margin-right: 10px;
+}
+.job-route-type {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  margin-left: 5px;
+}
+.job-route-package-text {
+  margin: 0px;
+  font-size: 19px;
+  font-weight: 500;
+}
+.job-route-location-text {
+  font-size: 18px;
+  margin: 0px;
+  margin-left: 5px;
+}
+.job-route-type-text {
+  font-size: 18px;
+  margin: 0px;
+  margin-left: 5px;
+}
+.job-route-profile-container {
+  display: flex;
+  margin-top: 30px;
+}
+.job-route-title {
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+.job-route-rating {
+  display: flex;
+  align-items: center;
+}
+.job-route-rating-text {
+  margin-left: 10px;
+}
+.yellow {
+  color: #fbbf24;
+}
+.job-route-company-logo {
+  width: 65px;
+  height: 65px;
+}
+.job-route-title-heading {
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 500;
+}
+.job-route-rating {
+  margin-top: 0px;
+}
+.visit-btn {
+  background-color: transparent;
+  color: #6366f1;
+  border: 0px;
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #6366f1;
+  font-size: 18px;
+  margin-right: 5px;
+}
+.visit-icon {
+  margin-left: 10px;
+}
+.skills-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.skills-heading {
+  font-size: 26px;
+  font-weight: 600;
+}
+.life-container {
+  display: flex;
+}
+.life-heading {
+  margin-top: 0px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.life-text {
+  font-size: 20px;
+  margin-top: 0px;
+}
+.life-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.jobs-route-failure-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.similar-jobs-heading {
+  padding-left: 10px;
+  margin: 5px;
+  font-weight: 600;
+}
+.similar-jobs-list {
+  padding-left: 0px;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .job-route-page {
+    padding: 10px;
+  }
+  .job-route-container {
+    padding: 10px;
+    margin: 5px;
+  }
+  .job-route-description-heading {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .visit-btn {
+    font-size: 14px;
+  }
+  .job-route-description {
+    font-size: 15px;
+  }
+  .skills-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .life-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .life-container {
+    flex-direction: column;
+  }
+  .life-img {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .life-text {
+    font-size: 15px;
+  }
+  .jobs-route-failure-img {
+    width: 75vw;
+  }
+  .jobs-route-failure-container {
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    min-height: 80vh;
+  }
+  .jobs-route-failure-heading {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}

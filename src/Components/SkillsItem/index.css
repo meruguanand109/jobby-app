@@ -1,0 +1,27 @@
+.skills-item {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin-bottom: 40px;
+  list-style-type: none;
+}
+.skills-img {
+  height: 50px;
+  margin-right: 10px;
+}
+.skills-name {
+  font-size: 17px;
+  font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+  .skills-item {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .skills-img {
+    height: 35px;
+  }
+  .skills-name {
+    font-size: 14px;
+  }
+}

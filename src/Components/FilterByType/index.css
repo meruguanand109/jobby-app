@@ -1,0 +1,25 @@
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+.filter-item {
+  display: flex;
+}
+label {
+  margin-left: 5px;
+}
+@media screen and (max-width: 767px) {
+  .filters-container {
+    padding-left: 5px;
+  }
+  .input-box {
+    width: 15px;
+    height: 15px;
+  }
+  label {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+}
